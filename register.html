@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./style2.css" />
+		<title>Amusement Park Blog</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo-container">
+        <img src="logo.png" width="100" height="100" >
+				<h4 class="logo">A Land Of Imagination</h4>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="post.html">Posts</a></li>
+					<li><a class="nav-link" href="register.html">Register</a></li>
+			    </ul>
+			</nav>
+        </header>
+        <div class="video1">
+         <video src="snow.mp4" autoplay mute loop></video>
+          <div class="regform"><h1>Registration Form</h1></div>
+            <div class="mane">             
+                
+                <form onsubmit="myFunction()">
+
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname" type="text" name="last_name">
+                    <label class="lastlabel">last name</label>
+
+                </div>
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area-code">Area code</label>
+                <input class="number" type="text" name="phone">
+                <label class="phone-number">Phone Number</label>
+
+                <h2 class="name">Amusement Park Options</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--Choose Option</option>
+                    <option>Universal Studios, Singapore</option>
+                    <option>Gardaland, Italy</option>
+                    <option>Disneyland, Paris</option>
+                    <option>The Prater, Austria</option>
+                    <option>Essel World, India</option>
+                    <option>Walt Disney World’s Magic Kingdom, Florida</option>
+                </select>
+                <h2 id="student">Are you interested?</h2>
+                <label class="radio">
+                    <input class="radio-one" type="radio"  name="name">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+                <label class="radio">
+                  <input class="radio=two" type="radio" name="name">
+                  <span class="checkmark"></span>
+                  No
+                  </label><br>
+                  <button type="submit">Register</button>
+                <br><br>
+                <h1 class="end">Go where you feel most alive!</h1>
+             </form>
+
+             <script>
+              function myFunction() {
+                alert("Thank you for submitting the form. One of our team member will contact you ASAP.");
+              }
+            </script>
+     </div>
+    </body>
+ </html
